@@ -1,0 +1,6 @@
+# ============================
+# DATA (never commit)
+# ============================
+data/raw/
+data/processed/
+models/
