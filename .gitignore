@@ -1,6 +1,38 @@
-# ============================
-# DATA (never commit)
-# ============================
+# DATA 
 data/raw/
 data/processed/
 models/
+
+# PYTHON ARTIFACTS
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pkl
+*.joblib
+
+# NOTEBOOKS
+.ipynb_checkpoints/
+
+# ENVIRONMENT
+.env
+*.env
+
+# OS 
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# GIS / MAP FILES
+*.geojson
+*.shp
+*.shx
+*.dbf
+*.prj
+*.cpg
+
+# LARGE ARTIFACTS
+*.h5
+*.model
+*.bin
